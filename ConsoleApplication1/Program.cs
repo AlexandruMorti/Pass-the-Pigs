@@ -34,8 +34,86 @@ namespace ConsoleApplication1
 
 
 
+            Random roll = new Random();
+            int rollDice = roll.Next(1, 7);
+            int rollDice2 = roll.Next(1, 7);
 
 
+            string PlayerChoice;
+
+
+
+
+
+
+            /* ● Change the program so it asks the user how many dice to roll and then outputs:
+                        ● The individual value of each dice
+                        ● The number of dice rolled
+                        ● The total value of all the dice summed up
+             */
+
+
+            // Ask the user how many dice to roll
+
+
+
+            Console.WriteLine("How many dice do you want to roll?(1/2)");
+
+
+
+
+            PlayerChoice = Console.ReadLine();
+
+            if (PlayerChoice == "1")
+            {
+
+                //Outputs the individual value of 1 dice
+
+
+              
+                Console.Write("You chosed {0} dice and the number is: ", PlayerChoice);
+                Console.WriteLine(rollDice);
+
+            }
+
+
+
+            else if (PlayerChoice == "2")
+            {
+
+                //Outputs the individual value of 2 dices
+
+                Console.WriteLine("You chosed {0} dices and the numbers are:", PlayerChoice);
+                Console.WriteLine(rollDice);
+                Console.WriteLine(rollDice2);
+
+
+
+
+
+                // ● The total value of all the dice summed up
+
+
+
+                Console.WriteLine("and the sum of the 2 dices is :");
+                Console.WriteLine((rollDice) + (rollDice2));
+
+
+            }
+
+
+
+            Console.ReadLine();
+
+
+            /*  Create a class which represents a ‘die’ and restructure the program in 2 to use this
+           */
+
+
+            // Create a class Die
         }
     }
+
 }
+
+
