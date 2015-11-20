@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// TODO: Rename the project to something like PassThePigs.Console and use this as the namespace
 namespace ConsoleApplication1
 {
     class Program
@@ -35,10 +36,13 @@ namespace ConsoleApplication1
 
 
             Random roll = new Random();
+
+            // TODO: It might make more sense to have rollDice1 and rollDice2 so it's clear they are 1+2 of the same thing
+            // TODO: Would be tempted to just call it 'roll1' and 'roll2' as you know it's a die/dice, but not essential
             int rollDice = roll.Next(1, 7);
             int rollDice2 = roll.Next(1, 7);
 
-
+            // TODO: This should be called 'playerChoice' - pascalCase for variables, please :)
             string PlayerChoice;
 
 
@@ -77,7 +81,8 @@ namespace ConsoleApplication1
             }
 
 
-
+            // TODO: You could just do 'else' - or use a switch
+            // TODO: What happens if the player puts in 3? ;)
             else if (PlayerChoice == "2")
             {
 
