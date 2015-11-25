@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 // TODO: Rename the project to something like PassThePigs.Console and use this as the namespace
 namespace ConsoleApplication1
@@ -11,7 +12,6 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-
             /* ● Create a console application which outputs a random number between 1 and 6
                ● Change the program so it asks the user how many dice to roll and then outputs:
                         ● The individual value of each dice
@@ -27,98 +27,61 @@ namespace ConsoleApplication1
                 */
 
 
-
-
-
             //   ● Create a console application which outputs a random number between 1 and 6
-
-
-
 
             Random roll = new Random();
 
             // TODO: It might make more sense to have rollDice1 and rollDice2 so it's clear they are 1+2 of the same thing
             // TODO: Would be tempted to just call it 'roll1' and 'roll2' as you know it's a die/dice, but not essential
-            int rollDice = roll.Next(1, 7);
-            int rollDice2 = roll.Next(1, 7);
+
+            int roll1 = roll.Next(1, 7);
+            int roll2 = roll.Next(1, 7);
 
             // TODO: This should be called 'playerChoice' - pascalCase for variables, please :)
-            string PlayerChoice;
 
-
-
-
-
+            string playerChoice;
+            int myValue = 0;
 
             /* ● Change the program so it asks the user how many dice to roll and then outputs:
                         ● The individual value of each dice
                         ● The number of dice rolled
                         ● The total value of all the dice summed up
              */
-
-
             // Ask the user how many dice to roll
 
-
-
             Console.WriteLine("How many dice do you want to roll?(1/2)");
-
-
-
-
-            PlayerChoice = Console.ReadLine();
-
-            if (PlayerChoice == "1")
+            playerChoice = Console.ReadLine();
+            if (playerChoice == "1")
             {
-
                 //Outputs the individual value of 1 dice
-
-
-              
-                Console.Write("You chosed {0} dice and the number is: ", PlayerChoice);
-                Console.WriteLine(rollDice);
-
+                Console.Write("You chosed {0} dice and the number is: ", playerChoice);
+                Console.WriteLine(roll1);
             }
-
-
             // TODO: You could just do 'else' - or use a switch
             // TODO: What happens if the player puts in 3? ;)
-            else if (PlayerChoice == "2")
+            else if (playerChoice != "2")
             {
-
-                //Outputs the individual value of 2 dices
-
-                Console.WriteLine("You chosed {0} dices and the numbers are:", PlayerChoice);
-                Console.WriteLine(rollDice);
-                Console.WriteLine(rollDice2);
-
-
-
-
-
-                // ● The total value of all the dice summed up
-
-
-
-                Console.WriteLine("and the sum of the 2 dices is :");
-                Console.WriteLine((rollDice) + (rollDice2));
-
-
+                Console.Out.WriteLine("Nice try!");
+            }
+            else
+            {
+                if (!int.TryParse(playerChoice, out myValue))
+                {
+                    Console.Out.WriteLine("Nice try!");
+                }
+                else
+                {
+                    //Outputs the individual value of 2 dices
+                    Console.WriteLine("You chosed {0} dices and the numbers are:", playerChoice);
+                    Console.WriteLine(roll1);
+                    Console.WriteLine(roll2);
+                    // ● The total value of all the dice summed up
+                    Console.WriteLine("and the sum of the 2 dices is :");
+                    Console.WriteLine((roll1) + (roll2));
+                }
             }
 
-
-
             Console.ReadLine();
-
-
-            /*  Create a class which represents a ‘die’ and restructure the program in 2 to use this
-           */
-
-
-            // Create a class Die
         }
     }
-
 }
-
-
