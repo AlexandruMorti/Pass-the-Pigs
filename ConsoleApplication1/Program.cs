@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 
 // TODO: Rename the project to something like PassThePigs.Console and use this as the namespace
 namespace ConsoleApplication1
@@ -28,7 +27,7 @@ namespace ConsoleApplication1
 
 
             //   ● Create a console application which outputs a random number between 1 and 6
-
+/*
             Random roll = new Random();
 
             // TODO: It might make more sense to have rollDice1 and rollDice2 so it's clear they are 1+2 of the same thing
@@ -42,12 +41,12 @@ namespace ConsoleApplication1
             string playerChoice;
             int myValue = 0;
 
-            /* ● Change the program so it asks the user how many dice to roll and then outputs:
-                        ● The individual value of each dice
-                        ● The number of dice rolled
-                        ● The total value of all the dice summed up
-             */
-            // Ask the user how many dice to roll
+            // ● Change the program so it asks the user how many dice to roll and then outputs:
+            //            ● The individual value of each dice
+            //            ● The number of dice rolled
+            //            ● The total value of all the dice summed up
+
+ * // Ask the user how many dice to roll
 
             Console.WriteLine("How many dice do you want to roll?(1/2)");
             playerChoice = Console.ReadLine();
@@ -80,6 +79,20 @@ namespace ConsoleApplication1
                     Console.WriteLine((roll1) + (roll2));
                 }
             }
+*/
+            // roll two pics
+            Pigs pig1 = new Pigs();
+            Pigs pig2 = new Pigs();
+
+            pig1.roll();
+            pig2.roll();
+
+            Console.Out.WriteLine(pig1.Value);
+            Console.Out.WriteLine(pig1.Description);
+
+            Console.Out.WriteLine(pig2.Value);
+            Console.Out.WriteLine(pig2.Description);
+
 
             Console.ReadLine();
         }
