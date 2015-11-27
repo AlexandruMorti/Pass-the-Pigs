@@ -19,7 +19,7 @@ namespace ConsoleApplication1
         {
             _sides = 6;
         }
-
+        
         public int Value
         {
             get
@@ -33,6 +33,7 @@ namespace ConsoleApplication1
         {
             _lastRoll = _random.Next(1, _sides);
         }
+
 
 
     }

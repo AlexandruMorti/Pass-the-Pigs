@@ -35,6 +35,8 @@ namespace ConsoleApplication1
     class Pigs : Die
     {
         private Dictionary<int, string> dictionary1;
+        private Dictionary<int, int> dictionary2;
+ 
 
         public Pigs()
         {
@@ -42,19 +44,31 @@ namespace ConsoleApplication1
             this._sides = 5;
 
             // initialise lookup of values vs descriptions
+            
             dictionary1 = new Dictionary<int, string>();
-            dictionary1.Add(1, "The pig is lying on its side - 0 Points");
-            dictionary1.Add(2, "Razorback - The pig is lying on its back  - 5 Points");
-            dictionary1.Add(3, "Trotter - The pig is standing upright  - 5 Points");
-            dictionary1.Add(4, "Snouter - The pig is leaning on its snout - 10 Points ");
-            dictionary1.Add(5, "Leaning Jowler - The pig is resting on its snout and ear - 15 Points");
+            dictionary1.Add(1, "The pig is lying on its side");
+            dictionary1.Add(2, "Razorback - The pig is lying on its back");
+            dictionary1.Add(3, "Trotter - The pig is standing upright");
+            dictionary1.Add(4, "Snouter - The pig is leaning on its snout");
+            dictionary1.Add(5, "Leaning Jowler - The pig is resting on its snout and ear");
+
+
+            dictionary2 = new Dictionary<int, int>();
+            dictionary2.Add(1, 0);
+            dictionary2.Add(2, 5);
+            dictionary2.Add(3, 5);
+            dictionary2.Add(4, 10);
+            dictionary2.Add(5, 15);
+
         }
- 
+
+   
+
         public string Description
         {
             get
             {
-                // return the description for the last value rolled by this pig       
+                // return the value last rolled
                 return dictionary1[this.Value];
             }
         }

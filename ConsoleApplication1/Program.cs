@@ -27,60 +27,66 @@ namespace ConsoleApplication1
 
 
             //   ● Create a console application which outputs a random number between 1 and 6
-/*
-            Random roll = new Random();
+            /*
+                        Random roll = new Random();
 
-            // TODO: It might make more sense to have rollDice1 and rollDice2 so it's clear they are 1+2 of the same thing
-            // TODO: Would be tempted to just call it 'roll1' and 'roll2' as you know it's a die/dice, but not essential
+                        // TODO: It might make more sense to have rollDice1 and rollDice2 so it's clear they are 1+2 of the same thing
+                        // TODO: Would be tempted to just call it 'roll1' and 'roll2' as you know it's a die/dice, but not essential
 
-            int roll1 = roll.Next(1, 7);
-            int roll2 = roll.Next(1, 7);
+                        int roll1 = roll.Next(1, 7);
+                        int roll2 = roll.Next(1, 7);
 
-            // TODO: This should be called 'playerChoice' - pascalCase for variables, please :)
+                        // TODO: This should be called 'playerChoice' - pascalCase for variables, please :)
 
-            string playerChoice;
-            int myValue = 0;
+                        string playerChoice;
+                        int myValue = 0;
 
-            // ● Change the program so it asks the user how many dice to roll and then outputs:
-            //            ● The individual value of each dice
-            //            ● The number of dice rolled
-            //            ● The total value of all the dice summed up
+                        // ● Change the program so it asks the user how many dice to roll and then outputs:
+                        //            ● The individual value of each dice
+                        //            ● The number of dice rolled
+                        //            ● The total value of all the dice summed up
 
- * // Ask the user how many dice to roll
+             * // Ask the user how many dice to roll
 
-            Console.WriteLine("How many dice do you want to roll?(1/2)");
-            playerChoice = Console.ReadLine();
-            if (playerChoice == "1")
-            {
-                //Outputs the individual value of 1 dice
-                Console.Write("You chosed {0} dice and the number is: ", playerChoice);
-                Console.WriteLine(roll1);
-            }
-            // TODO: You could just do 'else' - or use a switch
-            // TODO: What happens if the player puts in 3? ;)
-            else if (playerChoice != "2")
-            {
-                Console.Out.WriteLine("Nice try!");
-            }
-            else
-            {
-                if (!int.TryParse(playerChoice, out myValue))
-                {
-                    Console.Out.WriteLine("Nice try!");
-                }
-                else
-                {
-                    //Outputs the individual value of 2 dices
-                    Console.WriteLine("You chosed {0} dices and the numbers are:", playerChoice);
-                    Console.WriteLine(roll1);
-                    Console.WriteLine(roll2);
-                    // ● The total value of all the dice summed up
-                    Console.WriteLine("and the sum of the 2 dices is :");
-                    Console.WriteLine((roll1) + (roll2));
-                }
-            }
-*/
-            // roll two pics
+                        Console.WriteLine("How many dice do you want to roll?(1/2)");
+                        playerChoice = Console.ReadLine();
+                        if (playerChoice == "1")
+                        {
+                            //Outputs the individual value of 1 dice
+                            Console.Write("You chosed {0} dice and the number is: ", playerChoice);
+                            Console.WriteLine(roll1);
+                        }
+                        // TODO: You could just do 'else' - or use a switch
+                        // TODO: What happens if the player puts in 3? ;)
+                        else if (playerChoice != "2")
+                        {
+                            Console.Out.WriteLine("Nice try!");
+                        }
+                        else
+                        {
+                            if (!int.TryParse(playerChoice, out myValue))
+                            {
+                                Console.Out.WriteLine("Nice try!");
+                            }
+                            else
+                            {
+                                //Outputs the individual value of 2 dices
+                                Console.WriteLine("You chosed {0} dices and the numbers are:", playerChoice);
+                                Console.WriteLine(roll1);
+                                Console.WriteLine(roll2);
+                                // ● The total value of all the dice summed up
+                                Console.WriteLine("and the sum of the 2 dices is :");
+                                Console.WriteLine((roll1) + (roll2));
+                            }
+                        }
+            */
+
+
+     
+
+
+            // roll two pigs
+
             Pigs pig1 = new Pigs();
             Pigs pig2 = new Pigs();
 
@@ -90,11 +96,42 @@ namespace ConsoleApplication1
             Console.Out.WriteLine(pig1.Value);
             Console.Out.WriteLine(pig1.Description);
 
+
+            Console.Out.WriteLine();
+
             Console.Out.WriteLine(pig2.Value);
             Console.Out.WriteLine(pig2.Description);
 
 
+            Console.Out.WriteLine();
+
+            int score = Program.calculateScore(pig1, pig2);
+
+            Console.Out.WriteLine("Total score for this round is " + " " + (score) + " " + "points");
+
+            //do {
+            //     int i = 0;
+            //     while (i <= 1)
+            //            {
+            //                int thisThrow = score;
+            //                DiceThrow[0 + i] += thisThrow;
+            //                Console.ReadLine();
+            //                Console.Write(score[0 + i] + " rolled a " + thisThrow);
+            //                if (thisThrow != 5) i++;
+            //            }
+
+
+            //      }
+
+
             Console.ReadLine();
+        }
+
+
+
+        private static int calculateScore(Pigs pig1, Pigs pig2)
+        {
+            return 0;
         }
     }
 }
