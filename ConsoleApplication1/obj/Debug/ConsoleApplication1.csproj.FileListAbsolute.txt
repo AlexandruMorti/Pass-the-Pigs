@@ -1,6 +1,0 @@
-\\vmware-host\Shared Folders\Desktop\Work\Pass-the-Pigs\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
-\\vmware-host\Shared Folders\Desktop\Work\Pass-the-Pigs\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
-\\vmware-host\Shared Folders\Desktop\Work\Pass-the-Pigs\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
-\\vmware-host\Shared Folders\Desktop\Work\Pass-the-Pigs\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-\\vmware-host\Shared Folders\Desktop\Work\Pass-the-Pigs\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-\\vmware-host\Shared Folders\Desktop\Work\Pass-the-Pigs\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
