@@ -95,7 +95,7 @@ namespace ConsoleApplication1
 
             Console.Out.WriteLine(pig1.Value);
             Console.Out.WriteLine(pig1.Description);
-
+            Console.Out.WriteLine(pig1.Description);
 
             Console.Out.WriteLine();
 

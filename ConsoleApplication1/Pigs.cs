@@ -36,6 +36,7 @@ namespace ConsoleApplication1
     {
         private Dictionary<int, string> dictionary1;
         private Dictionary<int, int> dictionary2;
+      
  
 
         public Pigs()

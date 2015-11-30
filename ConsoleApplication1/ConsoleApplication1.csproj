@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Combinations.cs" />
     <Compile Include="Die.cs" />
     <Compile Include="Pigs.cs">
       <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
