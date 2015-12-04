@@ -8,7 +8,7 @@ namespace PassThePigs.Lib
 {
     public class Die
     {
-        private Random _random;
+        private static Random _random = new Random();
 
         public Die()
             : this(6)
@@ -18,7 +18,6 @@ namespace PassThePigs.Lib
         public Die(int sides)
         {
             this.Sides = sides;
-            _random = new Random();
         }
 
         public int Sides { get; private set; }
