@@ -1,0 +1,16 @@
+\\vmware-host\shared folders\documents\visual studio 2013\Projects\PassThePigsDemo\PassThePigsDemo\bin\Debug\PassThePigsDemo.exe.config
+\\vmware-host\shared folders\documents\visual studio 2013\Projects\PassThePigsDemo\PassThePigsDemo\bin\Debug\PassThePigsDemo.exe
+\\vmware-host\shared folders\documents\visual studio 2013\Projects\PassThePigsDemo\PassThePigsDemo\bin\Debug\PassThePigsDemo.pdb
+\\vmware-host\shared folders\documents\visual studio 2013\Projects\PassThePigsDemo\PassThePigsDemo\obj\Debug\PassThePigsDemo.csprojResolveAssemblyReference.cache
+\\vmware-host\shared folders\documents\visual studio 2013\Projects\PassThePigsDemo\PassThePigsDemo\obj\Debug\PassThePigsDemo.exe
+\\vmware-host\shared folders\documents\visual studio 2013\Projects\PassThePigsDemo\PassThePigsDemo\obj\Debug\PassThePigsDemo.pdb
+\\vmware-host\shared folders\documents\visual studio 2013\Projects\PassThePigsDemo\PassThePigsDemo\bin\Debug\PassThePigs.Lib.dll
+\\vmware-host\shared folders\documents\visual studio 2013\Projects\PassThePigsDemo\PassThePigsDemo\bin\Debug\PassThePigs.Lib.pdb
+Z:\sourcetree\Pass-the-Pigs\PassThePigsDemo\bin\Debug\PassThePigsDemo.exe.config
+Z:\sourcetree\Pass-the-Pigs\PassThePigsDemo\bin\Debug\PassThePigsDemo.exe
+Z:\sourcetree\Pass-the-Pigs\PassThePigsDemo\bin\Debug\PassThePigsDemo.pdb
+Z:\sourcetree\Pass-the-Pigs\PassThePigsDemo\bin\Debug\PassThePigs.Lib.dll
+Z:\sourcetree\Pass-the-Pigs\PassThePigsDemo\bin\Debug\PassThePigs.Lib.pdb
+Z:\sourcetree\Pass-the-Pigs\PassThePigsDemo\obj\Debug\PassThePigsDemo.csprojResolveAssemblyReference.cache
+Z:\sourcetree\Pass-the-Pigs\PassThePigsDemo\obj\Debug\PassThePigsDemo.exe
+Z:\sourcetree\Pass-the-Pigs\PassThePigsDemo\obj\Debug\PassThePigsDemo.pdb

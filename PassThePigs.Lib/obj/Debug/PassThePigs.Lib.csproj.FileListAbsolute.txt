@@ -1,0 +1,5 @@
+\\vmware-host\shared folders\documents\visual studio 2013\Projects\PassThePigsDemo\PassThePigs.Lib\bin\Debug\PassThePigs.Lib.dll
+\\vmware-host\shared folders\documents\visual studio 2013\Projects\PassThePigsDemo\PassThePigs.Lib\bin\Debug\PassThePigs.Lib.pdb
+\\vmware-host\shared folders\documents\visual studio 2013\Projects\PassThePigsDemo\PassThePigs.Lib\obj\Debug\PassThePigs.Lib.csprojResolveAssemblyReference.cache
+\\vmware-host\shared folders\documents\visual studio 2013\Projects\PassThePigsDemo\PassThePigs.Lib\obj\Debug\PassThePigs.Lib.dll
+\\vmware-host\shared folders\documents\visual studio 2013\Projects\PassThePigsDemo\PassThePigs.Lib\obj\Debug\PassThePigs.Lib.pdb
