@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassThePigs.Lib", "PassTheP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassThePigsDemo", "PassThePigsDemo\PassThePigsDemo.csproj", "{0F16FD76-CB93-4CB2-8BED-9A69807DE028}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassThePigs.Lib.Test", "PassThePigs.Lib.Test\PassThePigs.Lib.Test.csproj", "{764BF275-F019-4350-B49C-1CFE256F82C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassThePigs.WinForm", "PassThePigs.WinForm\PassThePigs.WinForm.csproj", "{611292CA-60A4-4ECC-AFD6-0025DEFD09EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0F16FD76-CB93-4CB2-8BED-9A69807DE028}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F16FD76-CB93-4CB2-8BED-9A69807DE028}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F16FD76-CB93-4CB2-8BED-9A69807DE028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{764BF275-F019-4350-B49C-1CFE256F82C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764BF275-F019-4350-B49C-1CFE256F82C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764BF275-F019-4350-B49C-1CFE256F82C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764BF275-F019-4350-B49C-1CFE256F82C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611292CA-60A4-4ECC-AFD6-0025DEFD09EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611292CA-60A4-4ECC-AFD6-0025DEFD09EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611292CA-60A4-4ECC-AFD6-0025DEFD09EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611292CA-60A4-4ECC-AFD6-0025DEFD09EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

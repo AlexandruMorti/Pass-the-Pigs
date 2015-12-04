@@ -1,0 +1,11 @@
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.WinForm\bin\Debug\PassThePigs.WinForm.exe.config
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.WinForm\obj\Debug\PassThePigs.WinForm.csprojResolveAssemblyReference.cache
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.WinForm\obj\Debug\PassThePigs.WinForm.Form1.resources
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.WinForm\obj\Debug\PassThePigs.WinForm.Properties.Resources.resources
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.WinForm\obj\Debug\PassThePigs.WinForm.csproj.GenerateResource.Cache
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.WinForm\bin\Debug\PassThePigs.WinForm.exe
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.WinForm\bin\Debug\PassThePigs.WinForm.pdb
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.WinForm\bin\Debug\PassThePigs.Lib.dll
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.WinForm\bin\Debug\PassThePigs.Lib.pdb
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.WinForm\obj\Debug\PassThePigs.WinForm.exe
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.WinForm\obj\Debug\PassThePigs.WinForm.pdb

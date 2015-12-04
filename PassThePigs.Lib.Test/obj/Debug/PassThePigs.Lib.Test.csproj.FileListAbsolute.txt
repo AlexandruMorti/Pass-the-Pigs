@@ -1,0 +1,3 @@
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\obj\Debug\PassThePigs.Lib.Test.csprojResolveAssemblyReference.cache
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\obj\Debug\PassThePigs.Lib.Test.dll
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\obj\Debug\PassThePigs.Lib.Test.pdb
