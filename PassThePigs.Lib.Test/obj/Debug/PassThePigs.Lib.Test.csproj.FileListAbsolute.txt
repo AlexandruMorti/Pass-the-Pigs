@@ -1,0 +1,9 @@
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\bin\Debug\PassThePigs.Lib.Test.dll
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\bin\Debug\PassThePigs.Lib.Test.pdb
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\bin\Debug\nunit.framework.dll
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\bin\Debug\PassThePigs.Lib.dll
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\bin\Debug\PassThePigs.Lib.pdb
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\bin\Debug\nunit.framework.xml
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\obj\Debug\PassThePigs.Lib.Test.csprojResolveAssemblyReference.cache
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\obj\Debug\PassThePigs.Lib.Test.dll
+Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\obj\Debug\PassThePigs.Lib.Test.pdb

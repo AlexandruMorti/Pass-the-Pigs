@@ -8,18 +8,31 @@ namespace PassThePigs.Lib
 {
     public class Pig : Die
     {
+        private PigPosition _position;
+
         public Pig()
             : base(6)
         {
 
         }
 
+        public Pig(PigPosition position)
+        {
+            _position = position;
+        }
+
         public PigPosition Position
         {
             get
             {
-                return (PigPosition)this.LastRoll;
+                return _position;
             }
+        }
+
+        new void Roll()
+        {
+            base.Roll();
+            _position = (PigPosition)this.LastRoll;
         }
 
         public static string GetPositionName(PigPosition position)

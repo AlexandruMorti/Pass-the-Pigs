@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\bin\Debug\PassThePigs.Lib.Test.dll" total="4" errors="0" failures="3" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-12-04" time="12:37:20">
+  <environment nunit-version="2.5.10.11092" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\WINDOWS\system32" machine-name="CEDEV01" user="Matt" user-domain="CEDEV01" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="Z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\bin\Debug\PassThePigs.Lib.Test.dll" executed="True" result="Failure" success="False" time="0.061" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="PassThePigs" executed="True" result="Failure" success="False" time="0.047" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Lib" executed="True" result="Failure" success="False" time="0.047" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="0.047" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="PigTest" executed="True" result="Failure" success="False" time="0.047" asserts="0">
+                    <results>
+                      <test-case name="PassThePigs.Lib.Test.PigTest._001_GetPositionName" executed="True" result="Failure" success="False" time="0.031" asserts="0">
+                        <failure>
+                          <message><![CDATA[  String lengths are both 11. Strings differ at index 4.
+  Expected: "Pig On Side"
+  But was:  "Pig on Side"
+  ---------------^
+]]></message>
+                          <stack-trace><![CDATA[at PassThePigs.Lib.Test.PigTest._001_GetPositionName() in z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\PigTest.cs:line 21
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="PassThePigs.Lib.Test.PigTest._002_CalculateScore_SinglePig" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[]]></message>
+                          <stack-trace><![CDATA[at PassThePigs.Lib.Test.PigTest._002_CalculateScore_SinglePig() in z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\PigTest.cs:line 30
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="PassThePigs.Lib.Test.PigTest._003_CalculateScore_SimpleCombination" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="PassThePigs.Lib.Test.PigTest._004_CalculateScore_MixedCombo" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                        <failure>
+                          <message><![CDATA[]]></message>
+                          <stack-trace><![CDATA[at PassThePigs.Lib.Test.PigTest._004_CalculateScore_MixedCombo() in z:\sourcetree\Pass-the-Pigs\PassThePigs.Lib.Test\PigTest.cs:line 47
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
