@@ -14,3 +14,11 @@ Z:\sourcetree\Pass-the-Pigs\PassThePigsDemo\bin\Debug\PassThePigs.Lib.pdb
 Z:\sourcetree\Pass-the-Pigs\PassThePigsDemo\obj\Debug\PassThePigsDemo.csprojResolveAssemblyReference.cache
 Z:\sourcetree\Pass-the-Pigs\PassThePigsDemo\obj\Debug\PassThePigsDemo.exe
 Z:\sourcetree\Pass-the-Pigs\PassThePigsDemo\obj\Debug\PassThePigsDemo.pdb
+Z:\Work\Pass-the-Pigs\PassThePigsDemo\bin\Debug\PassThePigsDemo.pdb
+Z:\Work\Pass-the-Pigs\PassThePigsDemo\bin\Debug\PassThePigs.Lib.dll
+Z:\Work\Pass-the-Pigs\PassThePigsDemo\bin\Debug\PassThePigs.Lib.pdb
+Z:\Work\Pass-the-Pigs\PassThePigsDemo\obj\Debug\PassThePigsDemo.csprojResolveAssemblyReference.cache
+Z:\Work\Pass-the-Pigs\PassThePigsDemo\obj\Debug\PassThePigsDemo.pdb
+Z:\Work\Pass-the-Pigs\PassThePigsDemo\bin\Debug\PassThePigsDemo.exe.config
+Z:\Work\Pass-the-Pigs\PassThePigsDemo\bin\Debug\PassThePigsDemo.exe
+Z:\Work\Pass-the-Pigs\PassThePigsDemo\obj\Debug\PassThePigsDemo.exe

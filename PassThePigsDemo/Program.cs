@@ -48,7 +48,7 @@ namespace PassThePigsDemo
 
             // wait for a keypress before exiting
             Console.Out.WriteLine("Press any key to exit");
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
